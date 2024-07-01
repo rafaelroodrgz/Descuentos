@@ -72,6 +72,10 @@ const loadModel = (sequelize, DataTypes) => {
       type: DataTypes.DATE,
       defaultValue: new Date()
     },
+    percentage: {
+      type: DataTypes.DOUBLE,
+      defaultValue: 0.0
+    },
     updatedAt: {
       allowNull: false,
       type: DataTypes.DATE,
